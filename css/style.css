@@ -104,7 +104,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    height: ;
+    /* height: 300px; */
 }
     
 h1, .intro{
@@ -115,13 +115,14 @@ h1, .intro{
 h1 {
     font-size: 40px;
     line-height: 40px;
-    
+}
+
 p {
     font-size: 20px;
 }
 
 .jumbo-buttons {
-    text-align: center;
+    text-align: center; 
 
 }
 
