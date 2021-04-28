@@ -86,11 +86,11 @@ header {
 
 /* ahhhhhhh dimensione login!!!!!!!!!!!! */
 .topbar .login li {
-    width: 100px;
+    width: 80px;
     font-size: 16px;
     background-color: white;
-    padding: 4px;
-    border-color: twhite;
+    /* padding: 2px; */
+    border-color: white;
     border-radius: 25px;
     color: blue;
 
