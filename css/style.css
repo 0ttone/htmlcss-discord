@@ -11,6 +11,12 @@
     clear: both;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    
+   
+}
+
 .fl {
     float: left;
 }
@@ -28,7 +34,7 @@ header {
     
     background: url(../img/jumbo.png) center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     position: relative;
     
     
@@ -69,7 +75,7 @@ header {
 }
 
 .topbar .menu li {
-    font-size: 18px;
+    font-size: 14px;
     display: inline-block;
     padding: 0 15px;
 }
@@ -88,7 +94,7 @@ header {
 /* ahhhhhhh dimensione login!!!!!!!!!!!! */
 .topbar .login li {
     width: 80px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: white;
     /* padding: 2px; */
     border-color: white;
@@ -98,13 +104,13 @@ header {
 }
 
 main {
-    /* max-width: 50%;
-    margin: 0 auto; */
+    max-width: 50%;
+    margin: 0 auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    /* height: 300px; */
+    height: 300px;
 }
     
 h1, .intro{
@@ -113,36 +119,88 @@ h1, .intro{
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 46px;
     line-height: 40px;
+    margin-bottom: 50px;
 }
 
-p {
-    font-size: 20px;
+p.intro {
+    font-size: 15px;
+    
+    margin-bottom: 30px;
+
 }
+
+/* ripuliti i bottoni */
 
 .jumbo-buttons {
     text-align: center; 
 
 }
 
-.jumbo-buttons .dwnld {
+.jumbo-buttons .dwnld, .jumbo-buttons .open  {
     display: inline-block;
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+}
+    
+    
+.dwnld {
     width: 200px;
     background-color: white;
     color: black;
-    text-align: center;
-    font-size: 16px;
+    margin-right: 5px;
 }
 
-.jumbo-buttons .open {
-    display: inline-block;
-    width: 200px;
+
+
+.open {
+    width: 240px;
     background-color: black;
     color: white;
-    text-align: center;
-    font-size: 16px;
+    margin-left: 5px;
+    
 }
+    
+    
+    /* testi e immagini specifici argomenti */
+
+    .topic {
+        max-width: 1200px;
+        height: 500px;
+        margin: 0 auto;
+        padding-top: 20px;
+        border: 2px solid black;
+        text-align: center;
+        
+    }
+
+    /* RIFARE RIPENSARE */
+    .topic-img {
+        width:50%;
+        height: 300px;
+
+        background-image: url(./img/item1.svg) center;
+
+        background-size: cover;
+        display: inline-block;
+
+
+        
+
+    }
+    
+    .topic-text {
+        width: 45%;
+        
+        display: inline-block;
+        font-size: 18px;
+    }
 
 
     
