@@ -14,3 +14,52 @@
 .fl {
     float: left;
 }
+
+/* UL LI DA RIVEDERE  */
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline;
+}
+
+
+
+header {
+    
+    background: url(../img/jumbo.png) center;
+    background-size: cover;
+    height: 500px;
+    
+    }
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+.topbar {
+    width: 100%;
+    height: 35px;
+    
+}
+
+.topbar .logo {
+    width: 25%;
+}
+
+.topbar nav {
+    width: 50%;
+    text-align: center;
+}
+
+.topbar .login {
+    width: 25%;
+}
